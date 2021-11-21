@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:16px;
+}
+body{
+    background-color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background: white;
+    margin:0 auto;
+    width: 900px;
+    text-align:justify;
+    height: 1070px;
+    margin-top: 10px;
+}
+
+.sidebar{
+    float: left;
+    height: 830px;
+    margin: 0px 15px 0 0px;
+    background-color: black;
+    
+    
+    
+}
+
+.header{
+    background: url('../img/logo2.jpg');
+    text-indent: 400px;
+    height: 240px;
+    text-transform: uppercase;
+    color: #657030;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+    font-size: 500%;
+    background-repeat: no-repeat;
+    background-color: #a3b553;
+}
+
+.pictures{
+    float: left;
+    margin-right: 20px;
+}
+
+.content{
+    margin: 15px;
+}
+
+ul{
+    list-style-type: none;
+   
+        
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    text-indent: 15px;
+    
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0 20px 0;
+    
+
+}
+
+li{
+    text-indent: 15px;
+    margin: 10px 0 15px 0;
+}
+
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+
+}
+
+.news{
+    height: 400px;
+    width: 580px;
+    line-height: 20px;
+    margin-left: 200px;
+}
+
+h2{
+    margin: 0 0 15px 0;
+    color: white;
+    background-color: lightgrey;
+    padding: 5px;
+    
+}
+
+p{
+    color: #657030
+}
+
+.footer{
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #003807;
+    color: white;
+}
